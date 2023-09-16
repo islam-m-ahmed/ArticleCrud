@@ -1,66 +1,56 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+### Article CRUD using Laravel 10 and Vue 3
 
-<p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+- [Laravel](https://laravel.com/)
+- [Vue 3](https://vuejs.org/)
 
-## About Laravel
+## Setup Project
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+### Laravel
+- After cloning the repository, run `composer update`.
+- Configure your environment variables (`.env` file).
+- Start the Laravel development server with `php artisan serve`.
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+### Vue
+- Change directory to `cd frontcrud`.
+- Install required packages with `npm install`.
+- I'm using CLI, Webpack, Axios, and more.
+- Build the Vue app with `npm run dev`.
+- Open localhost in your browser and enjoy! (Don't forget to run `php artisan serve` for the Laravel backend).
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+----------------------------------------------------------------------------------------------------
+## Project Overview
 
-## Learning Laravel
+This project demonstrates a simple Article CRUD (Create, Read, Update, Delete) application using the Laravel PHP framework for the backend and Vue.js for the frontend. Here are some details about the technologies used:
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+### Laravel
+- Laravel is a powerful and popular PHP web application framework known for its elegant syntax and developer-friendly features.
+- In this project, Laravel serves as the backend, handling database interactions, API endpoints, and routing.
+- To get started with Laravel, clone this repository and run `composer update` to install the required dependencies.
+- Configure your environment variables in the `.env` file, including database settings.
+- Start the Laravel development server with `php artisan serve`.
 
-You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
+### Vue 3
+- Vue.js is a progressive JavaScript framework for building user interfaces.
+- The frontend of this project is built with Vue 3, providing a responsive and interactive user interface.
+- To work on the Vue app, navigate to the `frontcrud` directory.
+- Install the necessary packages with `npm install`, which includes Vue CLI, Webpack, Axios, and more.
+- Build the Vue app with `npm run dev` for development or `npm run build` for production.
+- Open localhost in your browser to access the Vue app and enjoy the user-friendly interface.
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 2000 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+### CLI (Command Line Interface)
+- Command Line Interface (CLI) tools are essential for development and automation tasks.
+- In this project, the Vue CLI is used for creating and managing Vue.js projects.
+- The Laravel Artisan CLI is used for various Laravel-related tasks, such as creating controllers, migrations, and more.
+- You can run Laravel Artisan commands using `php artisan <command>` in the project root directory.
 
-## Laravel Sponsors
+### Webpack
+- Webpack is a popular JavaScript module bundler used to bundle and optimize project assets.
+- It's a fundamental part of the Vue.js development workflow, handling the compilation of JavaScript, CSS, and other assets.
+- Webpack simplifies the management of dependencies and assets, ensuring efficient loading of resources in the browser.
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell).
+### Axios
+- Axios is a promise-based HTTP client for making AJAX requests in JavaScript.
+- In this project, Axios is used for making HTTP requests from the Vue.js frontend to interact with the Laravel backend API.
+- Axios simplifies the process of sending and receiving data between the frontend and backend, enabling seamless communication.
 
-### Premium Partners
-
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Cubet Techno Labs](https://cubettech.com)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[Many](https://www.many.co.uk)**
-- **[Webdock, Fast VPS Hosting](https://www.webdock.io/en)**
-- **[DevSquad](https://devsquad.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[OP.GG](https://op.gg)**
-- **[WebReinvent](https://webreinvent.com/?utm_source=laravel&utm_medium=github&utm_campaign=patreon-sponsors)**
-- **[Lendio](https://lendio.com)**
-
-## Contributing
-
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
-
-## Code of Conduct
-
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
-
-## Security Vulnerabilities
-
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
-
-## License
-
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+This project combines the power of Laravel and Vue.js to create a modern web application with a robust backend and a responsive frontend. Feel free to explore and modify the code to suit your needs.
